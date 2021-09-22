@@ -1,15 +1,17 @@
 # Todo_Web_App_using_Django_with_Chrome_extension
 
 This ToDo app makes use of [AdminLTE](https://adminlte.io/themes/dev/AdminLTE/index.html) template also implemnts a chrome extension to easly access webapp if you are hosting. If you Add To Home screen in phones can be used like an app. 
+## Screenshot
+![Screenshot from 2021-09-22 18-37-31](https://user-images.githubusercontent.com/33574841/134349244-5a7bee02-37af-4fde-9a75-6bcec63f46cc.png)
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/33574841/134348975-9076c27e-c7a9-4b6b-8194-cc901e239ebc.gif)  ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33574841/134348784-f5690d78-b860-4824-9b5f-aa7054609d61.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/33574841/134348975-9076c27e-c7a9-4b6b-8194-cc901e239ebc.gif) ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33574841/134348784-f5690d78-b860-4824-9b5f-aa7054609d61.gif)
 
 
 ## How to use
 
-can be used in local host or deploy using heroku it's also free.
+Can be used in local host or deploy using heroku it's also free.
 
-You need to install python and pip 
+You need to install **Python** and **pip** 
 
   ### For Local usage
   
@@ -75,4 +77,25 @@ heroku run python manage.py migrate
 #You can make superuser with
 heroku run python manage.py createsuperuser 
 ```
-We are done now open URL (yourappname.heroku.com) to see your app 
+We are done now open URL (yourappname.heroku.com) to see your app
+## Chrome Extension
+
+Before uploading extension first navigate to Extension/background.js and change your_url to your heroku app url
+```javascript
+chrome.action.onClicked.addListener(function(){
+    chrome.tabs.create({ url: "your_url" });
+  });
+  
+```
+Goto Chrome [Extension](chrome://extensions/) page 
+
+Enebale **Developer mode** at top right.
+Click _Load Unpacked_ Open **Extension** folder 
+and thats it....
+
+##Mobile view
+
+This will work in mobile browser since its using Bootstrap but we can make it look like an Mobile App by _Add to Home screen_(pic 1) option. It will add icon to homescreen (pic 2) and also Shows _splash Screen_ when opening(pic 3).<br><br>
+<img src='https://user-images.githubusercontent.com/33574841/134354219-1ffbd9d3-6adb-47bc-9695-89fbe7b20064.png' height=350> <img src='https://user-images.githubusercontent.com/33574841/134359477-0a8c714d-0475-452c-9b80-30b7ff3a3af4.png' height=350> <img src='https://user-images.githubusercontent.com/33574841/134359470-4038d872-4008-45f1-9227-cb95cc76f479.png' height=350>
+
+
