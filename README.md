@@ -35,6 +35,7 @@ THis will generate a URL for you take a copy of it.Now we some adjustments in **
 ```python
 ALLOWED_HOSTS = ["yourappname.herokuapp.com","127.0.0.1"]
 ```
+![Screenshot from 2021-09-22 15-26-12](https://user-images.githubusercontent.com/33574841/134327500-0222192a-6d9c-44f0-99a8-901ac20a342c.png)
 
 ```python
 STATIC_ROOT=os.path.join(BASE_DIR,"static")
@@ -43,6 +44,7 @@ STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
 prod_db=dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
 ```` 
+
 All this are diabled initially to work in localhost but should be enabled while deploying to heroku, also
 
 ```python
