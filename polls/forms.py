@@ -1,0 +1,16 @@
+
+from django import forms
+from django.db.models import fields
+from django.forms import ModelForm
+from .models import *
+
+class AddTitle(forms.ModelForm):
+    class Meta:
+        model = TodoTitile
+        fields = '__all__'
+
+
+class AddTask(forms.ModelForm):
+    class Meta:
+        model= Task
+        fields='__all__'

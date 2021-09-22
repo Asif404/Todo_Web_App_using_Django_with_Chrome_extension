@@ -1,0 +1,15 @@
+{
+    "background_color": "purple",
+    "description": "TODO app add to homescreen.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "todo-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "ToDo List ",
+    "short_name": "ToDo",
+    "start_url": "your_url"
+  }
