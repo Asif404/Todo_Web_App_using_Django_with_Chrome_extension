@@ -10,7 +10,7 @@ You need to install python and pip
 
   ### For Local usage
   
-    ```bash
+    ```
     git clone https://github.com/Asif404/Todo_Web_App_using_Django_with_Chrome_extension
     cd todoapp
     pip install -r requirements.txt
