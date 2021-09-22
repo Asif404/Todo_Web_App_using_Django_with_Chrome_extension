@@ -10,7 +10,8 @@ https://user-images.githubusercontent.com/33574841/134336295-6d6b0708-5085-42f9-
 
 
 
-https://user-images.githubusercontent.com/33574841/134336337-1100ce47-6070-4659-af80-8b57d6b9bf77.mp4
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33574841/134348784-f5690d78-b860-4824-9b5f-aa7054609d61.gif)
+
 
 
 
