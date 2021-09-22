@@ -2,19 +2,7 @@
 
 This ToDo app makes use of [AdminLTE](https://adminlte.io/themes/dev/AdminLTE/index.html) template also implemnts a chrome extension to easly access webapp if you are hosting. If you Add To Home screen in phones can be used like an app. 
 
-
-
-
-https://user-images.githubusercontent.com/33574841/134336295-6d6b0708-5085-42f9-b4e4-18a725f8b667.mp4
-
-
-
-
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33574841/134348784-f5690d78-b860-4824-9b5f-aa7054609d61.gif)
-
-
-
-
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/33574841/134348975-9076c27e-c7a9-4b6b-8194-cc901e239ebc.gif)  ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/33574841/134348784-f5690d78-b860-4824-9b5f-aa7054609d61.gif)
 
 
 ## How to use
