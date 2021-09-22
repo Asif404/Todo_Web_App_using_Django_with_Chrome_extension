@@ -17,7 +17,7 @@ You need to install **Python** and **pip**
   
     ```
     git clone https://github.com/Asif404/Todo_Web_App_using_Django_with_Chrome_extension
-    cd todoapp
+    cd Todo_Web_App_using_Django_with_Chrome_extension
     pip install -r requirements.txt
     python manage.py makemigrations
     python manage.py migrate
@@ -31,7 +31,7 @@ First you need to make [Heroku](heroku.com) account ,then download and install [
  
 ```bash
 git clone https://github.com/Asif404/Todo_Web_App_using_Django_with_Chrome_extension
-cd todoapp
+cd Todo_Web_App_using_Django_with_Chrome_extension
 pip install -r requirements.txt
 heroku login
 heroku create yourappname
