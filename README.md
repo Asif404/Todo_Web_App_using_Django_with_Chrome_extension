@@ -71,4 +71,4 @@ heroku run python manage.py migrate
 #You can make superuser with
 heroku run python manage.py createsuperuser 
 ```
-We are done now open url(yourappname.heroku.com) to see your app 
+We are done now open URL (yourappname.heroku.com) to see your app 
